@@ -53,13 +53,6 @@ body {
     text-decoration: none;
 }
 
-.info {
-    position: absolute;
-    top: 60%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-}
-
 
 a {
     color: rgba(255, 255, 255, 1);
@@ -70,16 +63,28 @@ a:hover {
     color: rgba(61, 162, 134, 1)
 }
 
-.image-overlay {
-    position: absolute;
-    top: 60%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    width: 1000px;
-    height: 300px
-}
-
 #texts {
     display: flex;
     flex-wrap: wrap;
+} 
+
+.paragraph_1 {
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.paragraph_2 {
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: -5px;
+}
+
+.paragraph_3 {
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: -5px;
 }
