@@ -88,3 +88,46 @@ a:hover {
     text-align: center;
     padding-top: -5px;
 }
+
+@media screen and (max-width: 600px) {
+    .top_panel {
+        width: 600px;
+    }
+
+    .logo {
+        
+        left: 225px;
+        top: 250px;
+        width: 150px;
+        max-height: 150px;
+    }
+
+    .paragraph_1 {
+        padding-top:270px;
+    }
+
+    .home {
+        left: 45px;
+        top: 65px;
+        font-size: 25px;
+    }
+
+    .projects {
+        left: 250px;
+        top: 65px;
+        font-size: 25px;
+    }
+
+    .contact {
+        left: 450px;
+        top: 65px;
+        font-size: 25px;
+
+    }
+
+    .name {
+        color: rgba(55, 55, 55, 1);
+        top:180px;
+        left:150px;
+    }
+}
